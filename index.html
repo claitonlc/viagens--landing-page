@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Agência de Viagem</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#minha-viagem">Minha Viagem</a></li>
+            <li><a href="#nos-encontre">Nos Encontre</a></li>
+            <li><a href="#conselhos">Conselhos</a></li>
+            <li><a href="#pacotes">Pacotes de Viagem</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="banner" id="banner">
+            <h1>Descubra o Vilarejo Europeu</h1>
+            <p>Bem-vindo ao projeto de certificação da agência de viagem. Explore este destino turístico e compre seu
+                pacote de viagem.</p>
+        </section>
+
+        <div class="filter" id="filter">
+            <div id="searchbar">
+                <div class="input-wrapper" id="search">
+                    <label for="local">Para onde vamos?</label>
+                    <input type="text" id="local">
+                </div>
+                <div class="input-wrapper">
+                    <label for="date">Quando?</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="input-wrapper">
+                    <label for="return">Retorno</label>
+                    <input type="date" id="return">
+                </div>
+                <button id="search-button">Buscar</button>
+            </div>
+        </div>
+
+        <section id="minha-viagem">
+            <h2>Minha Viagem</h2>
+            <p>Explore os encantos e as belezas deste vilarejo europeu. Prepare-se para uma aventura inesquecível.</p>
+        </section>
+
+        <section id="nos-encontre">
+            <h2>Nos Encontre</h2>
+            <p>Estamos localizados no coração da Europa, facilmente acessível de várias cidades importantes.</p>
+        </section>
+
+        <section id="conselhos">
+            <h2>Conselhos</h2>
+            <p>Confira nossas dicas de viagem e esteja preparado para aproveitar ao máximo sua visita ao vilarejo.</p>
+        </section>
+
+        <section id="pacotes">
+            <h2>Pacotes de Viagem</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./img/barcelona.png" alt="Imagem do destino fictício 1">
+                    <h3>Barcelona</h3>
+                    <p>Desfrute de praias paradisíacas e aventuras exóticas neste destino inesquecível.</p>
+                    <a href="#banner"><button>Comprar Pacote</button></a>
+                </div>
+                <div class="card">
+                    <img src="./img/paris.png" alt="Imagem do destino fictício 2">
+                    <h3>Paris</h3>
+                    <p>Explore cidades históricas e paisagens deslumbrantes neste maravilhoso destino.</p>
+                    <a href="#banner"><button>Comprar Pacote</button></a>
+                </div>
+                <div class="card">
+                    <img src="./img/milao.png" alt="Imagem do destino fictício 3">
+                    <h3>Milão</h3>
+                    <p>Vivencie a cultura local e saboreie a gastronomia única deste destino encantador.</p>
+                    <a href="#banner"><button>Comprar Pacote</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Vilarejo Europeu. Todos os direitos reservados.
+    </footer>
+</body>
+
+</html>
